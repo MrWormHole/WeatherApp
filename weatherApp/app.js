@@ -2,8 +2,8 @@ const yargs = require("yargs");
 
 const geocode = require("./geocode/geocode.js");
 const weather = require("./weather/weather.js");
-const myGoogleAPIKey = "YOUR-GOOGLE-API-KEY"; //FILL THIS WITH YOUR OWN OR IT WILL NOT WORK.Go to google play developer console for geocode API
-const myForecastIOKey = "72ae25e20a422f19ec9a6f4b17157976"; //You can also change this.Since it is free i am sharing this
+const myGoogleAPIKey = "YOUR-GOOGLE-API-KEY"; //!!Fill this with your own key!!Go to google play developer console for geocode API
+const myForecastIOKey = "72ae25e20a422f19ec9a6f4b17157976"; //You can also create your own and change this.Since it is free i am sharing this
 const argv = yargs
   .options({
     a:{
